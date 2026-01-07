@@ -12,6 +12,7 @@ import {
 } from './types';
 //import { transcribeAudio } from './services/geminiService';
 import { transcribeAudio } from "./geminiService";
+
 const STORAGE_KEY = 'xcribe_profiles_v2';
 
 const DEFAULT_PROFILES: TranscriptionProfile[] = [
